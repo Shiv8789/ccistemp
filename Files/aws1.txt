@@ -1,0 +1,12 @@
+yum install httpd
+systemctl status httpd
+systemctl start httpd
+systemctl status httpd
+systemctl enable httpd
+systemctl status httpd
+cd /var/www/html/
+ls
+vi index.html
+ls
+
+,,,go to instance and public ip id copy to show op.
